@@ -1,0 +1,54 @@
+.layout-content > .page-container,
+.layout-content > .user-list-page,
+.layout-content > .role-list-page,
+.layout-content > .log-list-page {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.page-container .search-card,
+.user-list-page .search-card,
+.role-list-page .search-card,
+.log-list-page .search-card {
+  flex: 0 0 auto;
+}
+
+.page-container .table-card,
+.user-list-page .table-card,
+.role-list-page .table-card,
+.log-list-page .table-card {
+  flex: 1 1 auto;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-container .table-card > .el-card__body,
+.user-list-page .table-card > .el-card__body,
+.role-list-page .table-card > .el-card__body,
+.log-list-page .table-card > .el-card__body {
+  flex: 1 1 auto;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-container .el-table,
+.user-list-page .el-table,
+.role-list-page .el-table,
+.log-list-page .el-table {
+  flex: 1 1 auto;
+  min-height: 280px;
+}
+
+.page-container .el-pagination,
+.user-list-page .el-pagination,
+.role-list-page .el-pagination,
+.log-list-page .el-pagination,
+.pagination-wrapper {
+  flex: 0 0 auto;
+  margin-top: 16px;
+  justify-content: flex-end;
+}

@@ -1,0 +1,32 @@
+﻿target/
+*.log
+logs/
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Maven
+.mvn/wrapper/maven-wrapper.jar
+
+# Runtime
+*.pid
+
+# Local config backup
+application-local.yml
+
+# Frontend generated files
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Private configuration and local materials
+.env
+.env.local
+.env.*.local
+application-*.local.yml
+*.zip
+backup/
+.claude/
+.codex/
